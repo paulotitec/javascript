@@ -11,22 +11,18 @@
         <h1>Vamos contar</h1>
     </header>
     <section>
-        <div>
-            <label for="inicio">inicio</label>
-            <input type="number" name="inicio" id="inc">
+
+        <div id="dados">
+            <p>inicio: <input type="number" name="inicio" id="txti"></p>
+            <p>fim: <input type="number" name="fim" id="txtf"></p>
+            <p>passo: <input type="number" name="passo" id="txtp"></p>
+            <p><input type="button" value="contar" onclick="contar()"></p>
         </div>
-        <div>
-            <label for="fim">fim</label>
-            <input type="number" name="fim" id="fim">
+
+        <div id="res">
+            preparando a contagem...
         </div>
-        <div>
-            <label for="ps">passo</label>
-            <input type="number" name="passo" id="ps">
-        </div>
-        <div>
-            <input type="button" value="contar">
-            <p>Preparando contagem...</p>
-        </div>
+        
     </section>
     <footer>
         <p>&copy; cursoemvideo</p>
